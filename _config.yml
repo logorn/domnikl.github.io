@@ -1,0 +1,4 @@
+name: thewebdev.de
+markdown: redcarpet
+pygments: true
+permalink: :title/
