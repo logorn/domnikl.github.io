@@ -6,23 +6,8 @@ title: Sublime Text 2
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 578
-wordpress_url: http://thewebdev.de/?p=578
 date: '2013-10-07 19:58:02 +0200'
 date_gmt: '2013-10-07 18:58:02 +0200'
-categories:
-- Uncategorized
-tags:
-- text editor
-- tools
-comments:
-- id: 35490
-  author: Dominik Liebler (@domnikl)
-  author_email: domnikl@twitter.com
-  author_url: http://twitter.com/domnikl/status/387290962700935170/
-  date: '2013-10-07 19:58:55 +0200'
-  date_gmt: '2013-10-07 18:58:55 +0200'
-  content: Sublime Text 2 - http://t.co/p74vYigmRZ
 ---
 <p>As a software developer I am always searching for the best tool chain that helps me to write code more efficiently and faster. I am always testing new tools, discarding those that don&#39;t give me what I need to be productive.</p>
 <p>And a big role in my day-to-day work plays the most basic tool, a text editor (who would&#39;ve thought that?). While on the console there&#39;s <code>vim</code>, a graphical user interface on my developing machine makes sense, too.</p>

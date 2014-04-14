@@ -6,18 +6,8 @@ title: test your Ruby app with various versions using rvm
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 427
-wordpress_url: http://thewebdev.de/?p=427
 date: '2012-03-05 22:52:23 +0100'
 date_gmt: '2012-03-05 21:52:23 +0100'
-categories:
-- Uncategorized
-tags:
-- ruby
-- rvm
-- jruby
-- gems
-comments: []
 ---
 <p>Recently I started to test my <a title="highscore – a lightweight ruby library that finds and ranks keywords in a string" href="http://thewebdev.de/highscore-a-lightweight-ruby-library-that-finds-and-ranks-keywords-in-a-string/" target="_blank">highscore</a> library on <a href="http://travis-ci.org/#!/domnikl/highscore" target="_blank">Travis CI</a> and they're using rvm on their test machines to easily switch the version and platforms. I only had <a title="Matz Ruby Interpreter" href="http://en.wikipedia.org/wiki/Ruby_MRI" target="_blank">MRI</a> 1.9.3 on my local machine, but had some problems on 1.8.7. Removing 1.9.3 and installing 1.8.7 was no option, so I installed <a href="http://beginrescueend.com/" target="_blank">rvm</a> (Ruby Version Manager) on my machine and I love it! So I am going to talk about it today, the benefits, going through the (easy) installation process and what you should be aware of.</p>
 <p>First of all if you don't know it yet: there are several implementations of Ruby interpreters out there: the best known is MRI (Matz-Ruby-Interpreter), it's the first implementation and written in C, then there's <a href="http://www.rubyenterpriseedition.com/" title="REE" target="_blank">Ruby Enterprise Edition</a>, an improved version of the MRI. <a href="http://jruby.org/" title="JRuby" target="_blank">JRuby</a> runs on the Java Virtual Machine, <a href="http://rubini.us/" target="_blank">Rubinius</a> is also written in C, but younger implementation, <a href="http://ironruby.net/" target="_blank">IronRuby</a> runs on the .NET platform and <a href="http://www.macruby.org/" target="_blank">MacRuby</a> runs, well, only on Macs (who would've guessed it?).</p>

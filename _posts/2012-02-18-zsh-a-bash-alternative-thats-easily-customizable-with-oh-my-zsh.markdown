@@ -12,71 +12,8 @@ excerpt: ! "I think I now what you are thinking right now: \"Why do I even NEED 
   being productive when using the shell.\r\n\r\nAnd then one day in mid-2011 I discovered
   the Z shell and once I read about all the nice features it has, I started being
   even more productive and I fell in love with this tool.\r\n\r\n"
-wordpress_id: 344
-wordpress_url: http://thewebdev.de/?p=344
 date: '2012-02-18 17:14:55 +0100'
 date_gmt: '2012-02-18 16:14:55 +0100'
-categories:
-- Uncategorized
-tags:
-- shell
-- zsh
-- bash
-- oh-my-zsh
-comments:
-- id: 480
-  author: ! 'oh my zsh! oder: die bessere Bash'
-  author_email: ''
-  author_url: http://thewebdev.de/oh-my-zsh-oder-die-bessere-bash/
-  date: '2012-02-18 18:30:16 +0100'
-  date_gmt: '2012-02-18 17:30:16 +0100'
-  content: ! '[...] This post is in German, you might want to read my last post about
-    the zsh, which you can find here. [...]'
-- id: 484
-  author: Rick
-  author_email: rdbisch@gmail.com
-  author_url: ''
-  date: '2012-02-19 04:35:18 +0100'
-  date_gmt: '2012-02-19 03:35:18 +0100'
-  content: ! "A note to your readers:  (At least on Ubuntu 11.10) your examples don't
-    work until after you install \"oh-my-zsh\" (or otherwise make suitable adjustments
-    to your .zsh)\r\n\r\nFurther, for those on same system--follow manual instructions
-    for installation of \"oh-my-zsh\" didn't work."
-- id: 501
-  author: Unix programming using Ruby
-  author_email: ''
-  author_url: http://thewebdev.de/unix-programming-using-ruby/
-  date: '2012-02-21 18:55:21 +0100'
-  date_gmt: '2012-02-21 17:55:21 +0100'
-  content: ! '[...] other day I blogged about an alternative for bash, zsh. But what
-    if you want to write your own shell that behaves exactly like you want it [...]'
-- id: 2044
-  author: Dominik Liebler
-  author_email: liebler.dominik@googlemail.com
-  author_url: ''
-  date: '2012-08-30 09:32:10 +0200'
-  date_gmt: '2012-08-30 08:32:10 +0200'
-  content: ! 'Recently, the oh-my-zsh fork from Sorin Ionescu has been renamed to
-    prezto. The new repository can be found here: https://github.com/sorin-ionescu/prezto.
-    I seriously recommend to use this instead of Robby Russells original Oh My Zsh!
-    because of the better implementation of the git plugin. I had several performance
-    issues on various physical and virtual machines with the original version.'
-- id: 2148
-  author: Why don&#8217;t you put your dotfiles on Github? | the web dev
-  author_email: ''
-  author_url: http://thewebdev.de/why-dont-you-put-your-dotfiles-on-github/
-  date: '2012-09-19 18:10:54 +0200'
-  date_gmt: '2012-09-19 17:10:54 +0200'
-  content: ! '[...] might include settings for vim, screen, tmux, bash, zsh or aliases
-    you use for your daily work on these systems. Or some tools you have written to
-    automate [...]'
-- id: 6259
-  author: Willynux
-  author_email: william@idilix.net
-  author_url: ''
-  date: '2013-03-17 06:26:24 +0100'
-  date_gmt: '2013-03-17 05:26:24 +0100'
-  content: Seems nice, I'll definitely try it
 ---
 <p>I think I now what you are thinking right now: "Why do I even NEED an alternative to bash?". And I can tell you I thought the same, too. Bash is perfect, there's auto completion, a command history and all those neat things that help you being productive when using the shell.</p>
 <p>And then one day in mid-2011 I discovered the Z shell and once I read about all the nice features it has, I started being even more productive and I fell in love with this tool.</p>
@@ -127,7 +64,7 @@ $&gt; ruby test.rb<br />
 [/code]</p>
 <h3>autocompletion</h3>
 <p>The auto completion features are one of the main causes why I love zsh. I find it very annoying, that autocompletion in bash is case-sensitive. This is not the case in zsh. And zsh allows programmatic autocompletion, so there's even <em>autocompletion for kill(1)</em> and you can chose the PID with your arrow keys!</p>
-<p style="text-align: center;"><a href="http://thewebdev.de/wp-content/uploads/2012/02/zsh_kill_autocompletion.png"><img class="aligncenter  wp-image-375" title="zsh kill(1) auto-completion" src="http://thewebdev.de/wp-content/uploads/2012/02/zsh_kill_autocompletion.png" alt="" width="482" height="256" /></a></p>
+<p style="text-align: center;"><a href="zsh_kill_autocompletion.png"><img class="aligncenter  wp-image-375" title="zsh kill(1) auto-completion" src="zsh_kill_autocompletion.png" alt="" width="482" height="256" /></a></p>
 <h3>globbing</h3>
 <p>zsh supports advanced globbing, e.g. if you use <code>ls **/*.html</code>, the shell will list you all files in any directory under . that has the suffix html.</p>
 <h3>advanced cd</h3>
@@ -143,6 +80,6 @@ $&gt; ruby test.rb<br />
 <p>Feel free to fork and add your own settings :)</p>
 <h2>using oh-my-zsh</h2>
 <p><a href="http://robbyonrails.com/" target="_blank">Robby Russell</a> started an interesting project named oh-my-zsh, where zsh lovers share plugins, settings and themes that help you being even more productive on the shell. <span style="color: #3366ff;">EDIT: don't use the original as it introduces some bugs and is said to be very slow. Use the fork from <a title="oh-my-zsh" href="https://github.com/sorin-ionescu/oh-my-zsh" target="_blank"><span style="color: #3366ff;">sorin-ionescu</span></a> instead.</span> You can find it <a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank">here on github</a>. It also allows you easy customization of your shell prompt. Here's mine:</p>
-<p><a href="http://thewebdev.de/wp-content/uploads/2012/02/zsh_prompt.png"><img class="aligncenter size-full wp-image-379" title="zsh_prompt" src="http://thewebdev.de/wp-content/uploads/2012/02/zsh_prompt.png" alt="" width="506" height="39" /></a></p>
+<p><a href="zsh_prompt.png"><img class="aligncenter size-full wp-image-379" title="zsh_prompt" src="zsh_prompt.png" alt="" width="506" height="39" /></a></p>
 <p>As you can see, when I am in directories that contain a git repository, the shell shows me <strong><span style="color: #339966;">which branch I'm on (develop)</span></strong>. The blue part is the<strong><span style="color: #00ccff;"> directory I'm in</span></strong> (last part of the path only) and the yellow chars are <strong><span style="color: #ffcc00;">the hostname</span></strong>. When I am working as root, a <strong><span style="color: #ff0000;">bold red label "root"</span></strong> would warn me of that fact.</p>
 <p>That's the end of my little overview on zsh, but I hope you liked it. Try the Z shell and you'll see that it's fun and easy. Have fun! :)</p>

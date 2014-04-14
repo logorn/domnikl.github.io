@@ -4,45 +4,9 @@ status: publish
 published: true
 title: building tiny web apps with Sinatra Part 1
 author: Dominik Liebler
-author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 276
-wordpress_url: http://thewebdev.de/?p=276
 date: '2012-01-10 22:32:59 +0100'
 date_gmt: '2012-01-10 21:32:59 +0100'
-categories:
-- Uncategorized
-tags:
-- ruby
-- blog
-- sinatra
-- getting started
-comments:
-- id: 420
-  author: shf
-  author_email: shferreira@me.com
-  author_url: ''
-  date: '2012-02-06 02:44:32 +0100'
-  date_gmt: '2012-02-06 01:44:32 +0100'
-  content: Actually, you can run the 5-line app in Rack too, you just have to use
-    "run Sinatra::Application" instead of "run MyBlog.new".
-- id: 446
-  author: building tiny web apps with Sinatra part 2
-  author_email: ''
-  author_url: http://thewebdev.de/building-tiny-web-apps-with-sinatra-part-2/
-  date: '2012-02-12 15:57:19 +0100'
-  date_gmt: '2012-02-12 14:57:19 +0100'
-  content: ! '[...] been a while since Part 1 but I&#8217;m here again to implement
-    the outstanding two features. That is: showing an article and [...]'
-- id: 847
-  author: Think of APIs as Domain-specific languages (DSL)
-  author_email: ''
-  author_url: http://thewebdev.de/think-of-apis-as-domain-specific-languages-dsl/
-  date: '2012-04-04 17:29:49 +0200'
-  date_gmt: '2012-04-04 16:29:49 +0200'
-  content: ! '[...] is a Ruby micro HTTP framework (I already blogged a tutorial series
-    about Sinatra) that defines a set of commands that help you to build more or less
-    simple web applications or REST [...]'
 ---
 <p>Sinatra is an awesome, lightweight and easy to learn little web framework written in Ruby. You may want to use it for projects when Rails is just too much, e.g. for small webservices or small web apps. It will run with many great Ruby webservers, such as Webrick, Mongrel (recommended), thin or Puma (which I prefer).</p>
 <p>To get started, you have to install the gem.</p>

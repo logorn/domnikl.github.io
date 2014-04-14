@@ -6,22 +6,8 @@ title: Think of APIs as Domain-specific languages (DSL)
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 441
-wordpress_url: http://thewebdev.de/?p=441
 date: '2012-04-04 17:29:45 +0200'
 date_gmt: '2012-04-04 16:29:45 +0200'
-categories:
-- Uncategorized
-tags:
-- erlang
-- ruby
-- redis
-- sinatra
-- dsl
-- node.js
-- domain-specific languages
-- general-purpose programming languages
-comments: []
 ---
 <p>Today's blog post is about why you should think of a DSL when building APIs. Don't be afraid, I am going to explain what a DSLs is if you don't know it by now and I will give you an overview of examples. You might already know them but most developers don't recognize them as domain-specific, but just another language.</p>
 <h2>Definition</h2>

@@ -6,17 +6,8 @@ title: practices of an agile developer
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 403
-wordpress_url: http://thewebdev.de/?p=403
 date: '2012-02-27 19:30:58 +0100'
 date_gmt: '2012-02-27 18:30:58 +0100'
-categories:
-- Uncategorized
-tags:
-- agile
-- books
-- pragmatic programmers
-comments: []
 ---
 <p>I often ask myself: "What can I do to improve my daily work, to become more efficient and a better developer in the non-technical sense?" In the end, it's all about being agile. But what does that mean? I assume you already know about the <a href="http://agilemanifesto.org/" target="_blank">agile manifesto</a>:</p>
 <blockquote><p><span style="font-size: small;">Individuals and interactions </span><span style="font-size: x-small;">over processes and tools<br />

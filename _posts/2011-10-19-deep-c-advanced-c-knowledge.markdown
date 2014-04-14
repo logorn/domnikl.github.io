@@ -6,17 +6,8 @@ title: Deep C - advanced C knowledge
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 194
-wordpress_url: http://thewebdev.de/?p=194
 date: '2011-10-19 15:58:52 +0200'
 date_gmt: '2011-10-19 14:58:52 +0200'
-categories:
-- Uncategorized
-tags:
-- C
-- programming
-- slides
-comments: []
 ---
 <blockquote><em>Lots of programmers using C think they know C. Most of them are wrong.</em></p>
 <p>- @<a href="https://twitter.com/#!/kevlinhenney/status/123323974842200064" target="_blank">KevlinHenny</a></p></blockquote>

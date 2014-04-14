@@ -6,31 +6,8 @@ title: vmtouch - virtual memory touch
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 268
-wordpress_url: http://thewebdev.de/?p=268
 date: '2011-12-18 22:17:42 +0100'
 date_gmt: '2011-12-18 21:17:42 +0100'
-categories:
-- Uncategorized
-tags:
-- linux
-- performance
-- cache
-comments:
-- id: 457
-  author: Johnnie Yankovitz
-  author_email: Cantave7236@hotmail.com
-  author_url: ''
-  date: '2012-02-15 06:17:56 +0100'
-  date_gmt: '2012-02-15 05:17:56 +0100'
-  content: Appreciate it for helping out, excellent information.
-- id: 7425
-  author: knight
-  author_email: equibrilium@gmail.com
-  author_url: ''
-  date: '2013-03-25 16:25:09 +0100'
-  date_gmt: '2013-03-25 15:25:09 +0100'
-  content: best vmtouch tutorial
 ---
 <p>vmtouch is a tiny little tool that could be very useful to you if you want to improve performance on a low level basis or just learn something about the file system cache in Linux.</p>
 <p>Database indices are most useful when they are in the RAM, but on large databases this often isn't the case. So index files that are stored on the hard disk are used. To get better performance, this files should be held in the file system cache. Of course, this doesn't only apply to database systems. You can touch all types of files to get them into the cache and get them loaded fast.</p>

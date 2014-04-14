@@ -6,34 +6,8 @@ title: learning some Erlang
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 160
-wordpress_url: http://thewebdev.de/?p=160
 date: '2011-10-06 18:59:19 +0200'
 date_gmt: '2011-10-06 17:59:19 +0200'
-categories:
-- Uncategorized
-tags:
-- erlang
-- functional programming
-- learning
-- couchdb
-comments:
-- id: 180
-  author: Funky
-  author_email: ice15422@aol.com
-  author_url: ''
-  date: '2011-10-22 20:27:57 +0200'
-  date_gmt: '2011-10-22 19:27:57 +0200'
-  content: I always appreciate a great article or piece of writing. Thanks for the
-    contribution.
-- id: 462
-  author: Jeffrey Smith
-  author_email: jeffreysmith1985@live.com
-  author_url: ''
-  date: '2012-02-16 00:06:15 +0100'
-  date_gmt: '2012-02-15 23:06:15 +0100'
-  content: Thx for the advice, and your web page definitely looks good. Just what
-    wp design are you employing?
 ---
 <p>You now might think: <em>What the hell is Erlang? </em>And a few months back I didn't even knew what exactly it was. I only knew it is a programming language, and that somehow Ericsson was involved in developing it.</p>
 <p><img class="alignright" title="Erlang Logo" src="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" alt="" width="340" height="289" /></p>

@@ -4,27 +4,9 @@ status: publish
 published: true
 title: Android Studio on IntelliJ base
 author: Dominik Liebler
-author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 588
-wordpress_url: http://thewebdev.de/?p=588
 date: '2013-10-09 19:00:25 +0200'
 date_gmt: '2013-10-09 18:00:25 +0200'
-categories:
-- Uncategorized
-tags:
-- android
-- intellij
-- java
-- mobile
-comments:
-- id: 35654
-  author: Dominik Liebler (@domnikl)
-  author_email: domnikl@twitter.com
-  author_url: http://twitter.com/domnikl/status/388014595958272000/
-  date: '2013-10-09 19:54:23 +0200'
-  date_gmt: '2013-10-09 18:54:23 +0200'
-  content: Android Studio on IntelliJ base - http://t.co/WkEI6S9PCy
 ---
 <p>Owning Android devices since about 1 1/2 years now, I have to admit I love that platform a lot more than iOS. Mostly because getting into programming for these is a lot easier than with Apple's OS. All you need is a computer running OSX, Linux or Windows and (though it is optional) a mobile device or tablet running Android. No need for expensive certificates or such. Programming is done using the Java programming language and an IDE that uses Eclipses as the base.</p>
 <h2>Times have changed</h2>

@@ -6,38 +6,8 @@ title: learn something new every day - or why I did a project named fuba
 author: Dominik Liebler
 author_login: domnikl
 author_email: liebler.dominik@googlemail.com
-wordpress_id: 262
-wordpress_url: http://thewebdev.de/?p=262
 date: '2011-12-17 12:16:11 +0100'
 date_gmt: '2011-12-17 11:16:11 +0100'
-categories:
-- Uncategorized
-tags:
-- php
-- annotations
-- doctrine2
-- redis
-- backbone.js
-- stylus
-- bootstrap
-- underscore.js
-- zend framework
-- symfony2
-- rediska
-- postgresql
-comments:
-- id: 401
-  author: Dominik Liebler
-  author_email: liebler.dominik@googlemail.com
-  author_url: ''
-  date: '2012-02-03 20:11:54 +0100'
-  date_gmt: '2012-02-03 19:11:54 +0100'
-  content: Ok, I talked to Benjamin Eberlei, who is the maintainer of Doctrine2 and
-    he told me usinig the Event handlers of Doctrine2 to validate entities before
-    saving isn't a good practice. If validation fails, only an exception can stop
-    the entities of being saved and if you save 100 entities, how would you know which
-    failed validation? You'd have to inject that entity in the exception and so on
-    ... Just don't do it :)
 ---
 <p>A couple of days ago I wrote about the advent calender on the blog of the company I work for: <a href="http://blog.mayflower.de" target="_blank">Mayflower</a>. And I also wrote a blog post about <a href="http://blog.mayflower.de/archives/785-15.12.-Using-custom-annotations-in-PHP.html" target="_blank">using custom annotations in PHP</a> to save a lot of time and code with it. I worked on a lot of projects that used annotations more or less, but this is the story why I wrote the article:</p>
 <p>I recently did a little side project named <strong>fuba</strong> that really heavily relies on annotations for various purposes in the core and uses many shiny new technologies. I did it just to learn a few new things and try them out, perhaps I will put it on github in the next days so you can learn something, too :)</p>

@@ -10,69 +10,8 @@ excerpt: One of the first things every Junior Developer learns regarding relatio
   database systems is that storing integers is fast, it doesn't take much space and
    in general, you should favor an integer over a character field if you've got the
   choice.
-wordpress_id: 328
-wordpress_url: http://thewebdev.de/?p=328
 date: '2012-02-07 19:20:30 +0100'
 date_gmt: '2012-02-07 18:20:30 +0100'
-categories:
-- Uncategorized
-tags:
-- mysql
-- databases
-- postgresql
-- antipattern
-- auto_increment
-- serial
-- sequence
-- nosql
-- rant
-- uuid
-comments:
-- id: 429
-  author: Florian
-  author_email: fa@codeschmie.de
-  author_url: http://f5n.org
-  date: '2012-02-08 19:25:36 +0100'
-  date_gmt: '2012-02-08 18:25:36 +0100'
-  content: ! "CLI uuidgen? slooow :(\r\nI like the compound primary key solution of
-    \"auto_increment + dbhost\" better :)"
-- id: 430
-  author: Dominik Liebler
-  author_email: liebler.dominik@googlemail.com
-  author_url: ''
-  date: '2012-02-08 19:57:49 +0100'
-  date_gmt: '2012-02-08 18:57:49 +0100'
-  content: Ok, the CLI uuidgen is the last of all possible alternatives I would use.
-    Auto increment + db host sounds good :)
-- id: 452
-  author: richard
-  author_email: richard@bucker.net
-  author_url: http://richardbucker.com
-  date: '2012-02-13 16:31:09 +0100'
-  date_gmt: '2012-02-13 15:31:09 +0100'
-  content: ! "On the one-hand you are very right. Using integers or sequences as the
-    PK is going to fail in these scenarios, however, using UUIDs as the PK are also
-    going to fail but for a different reason. Many DBs evaluate the interval between
-    key values and attempt to identify the amount of freespace(extents) needed between
-    \ keys....\r\n\r\n... most databases sort their records in physical order based
-    on their PK. That means that if you are using a sequence number that the records
-    are simply appended to the end of the table file.\r\n\r\n... if you use a string
-    or a UUID then the database needs to allocate freespace between records because
-    the next insert might put the new record between two existing records. And the
-    last thing you want to happen is a reballancing of all of the tables records.
-    (This was a huge problem for Oracle many years ago and it could cause lock escalation
-    to the table and database level).\r\n\r\n... so a combination is probably best.
-    Use the sequence number locally, and create unique secondary index for the UUID.\r\n\r\nPS:
-    I do not know what instagram did, but it sounds like something similar to a UUID."
-- id: 1151
-  author: 分布式环境下ID生成方法总结 | Day Day Up
-  author_email: ''
-  author_url: http://blog.ddup.us/?p=302
-  date: '2012-05-24 08:39:21 +0200'
-  date_gmt: '2012-05-24 07:39:21 +0200'
-  content: ! '[...] http://code.flickr.com/blog/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/
-    http://thewebdev.de/why-auto_increments-and-sequences-are-anti-patterns/   此条目发表在
-    分布式系统 分类目录，贴了 distributed-system, uuid [...]'
 ---
 <p>One of the first things every Junior Developer learns regarding relational database systems is that storing integers is fast, it doesn't take much space and  in general, you should favor an integer over a character field if you've got the choice.<a id="more"></a><a id="more-328"></a></p>
 <p>There's nothing wrong about that, just remember that a database system can handle values that have a fixed length much faster than values that have a variable length. So naturally it would be a good choice to auto generate an unique sequential integer and store it as the primary key to identify the row in the table.</p>

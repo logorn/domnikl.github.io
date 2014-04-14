@@ -14,19 +14,8 @@ excerpt: ! "It's been a while since <a title=\"building tiny web apps with Sinat
   this will be /posts/:id, so that the first article will be /posts/1 etc. I started
   with implementing a method in the Post class that will load one single file, given
   the id of the post:\r\n\r\n[gist id=1808449 file=sinatra_part2_post.rb]\r\n\r\n"
-wordpress_id: 341
-wordpress_url: http://thewebdev.de/?p=341
 date: '2012-02-12 15:57:12 +0100'
 date_gmt: '2012-02-12 14:57:12 +0100'
-categories:
-- Uncategorized
-tags:
-- ruby
-- blog
-- sinatra
-- getting started
-- tutorial
-comments: []
 ---
 <p>It's been a while since <a title="building tiny web apps with Sinatra Part 1" href="http://thewebdev.de/building-tiny-web-apps-with-sinatra-part1/">Part 1</a> but I'm here again to implement the outstanding two features. That is: showing an article and creating new articles.</p>
 <h2>Feature 2: show a single article per page</h2>
