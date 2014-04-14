@@ -1,3 +1,6 @@
+# general
+.DS_Store
+
 # deployment
 thewebdev.de.tar
 Makefile
