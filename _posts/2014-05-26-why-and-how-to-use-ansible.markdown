@@ -7,6 +7,7 @@ author: Dominik Liebler
 date: '2014-05-26 19:37:00 +0100'
 ---
 
+- Puppet vs. ansible
 - getting faster to results as puppet
 - no ruby, just python needed on remote (per default on every modern Linux distro anyway)
 - verbose mode => see how it works => sample
