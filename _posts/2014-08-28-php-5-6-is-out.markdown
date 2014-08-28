@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: PHP 5.6 is out - what's new?
+author: Dominik Liebler
+date: '2014-08-28 15:30:00 +0100'
+---
+Today there was a new release of PHP - version 5.6.0 is out! And it contains some very interesting changes I think!
+
+## variadic functions
+
+Don't you just hate to use the mysterious function `func_get_args` in PHP? These times are over now (or whenever PHP 5.6 is hardened and ready to use in production ...) and PHP now has complete variadic functions:
+
+```php
+function foo($bar, ...$baz) {
+	// $baz is an array of parameters given
+}
+
+foo(1, 2, 3, 4);
+// $bar = 1, $baz = [2, 3, 4]
+```
+
+## exponentiation operator
+
+Finally! I have been waiting long for this and now you can do this in PHP:
+
+```php
+2 ** 3 == 8;
+```
+
+It's only a new operator, but I like it and I think it follows the principle of least surprise, because that's what I searched for when using exponentiation for the first time in PHP.
+
+## conclusion
+
+PHP 5.6 moves closer to other script languages by adding features that have existed a very long time in e.g. Ruby or Python.
+Of course there are many more changes, [check out the changelog](http://de2.php.net/migration56.new-features) if you're interested.
+
