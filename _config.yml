@@ -9,3 +9,4 @@ copyright: "2014 by Dominik Liebler"
 rss_path: "/"
 rss_name: "/feed.rss"
 rss_post_limit: 20
+safe: true
