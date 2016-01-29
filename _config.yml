@@ -1,12 +1,14 @@
-name: thewebdev.de
-markdown: redcarpet
-pygments: true
-permalink: :title/
-url: http://thewebdev.de
-description: "software, landscapes, guitar & whisky"
+# Site settings
+title: domnikl
+email: liebler.dominik@gmail.com
+description: "software, landscapes, guitars & whisky"
+baseurl: "" # the subpath of your site, e.g. /blog/
+copyright: "2016 by Dominik Liebler"
 author: Dominik Liebler
-copyright: "2014 by Dominik Liebler"
-rss_path: "/"
-rss_name: "/feed.rss"
-rss_post_limit: 20
-safe: true
+permalink: :title/
+url: "https://domnikl.github.io" # the base hostname & protocol for your site
+twitter_username: domnikl
+github_username:  domnikl
+
+# Build settings
+markdown: kramdown

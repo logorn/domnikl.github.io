@@ -2,4 +2,5 @@
 .DS_Store
 
 # generated content
-_site
+/_site
+/.sass-cache
