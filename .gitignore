@@ -1,0 +1,9 @@
+# general
+.DS_Store
+
+# deployment
+thewebdev.de.tar
+Makefile
+
+# generated content
+_site

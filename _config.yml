@@ -1,0 +1,11 @@
+name: thewebdev.de
+markdown: redcarpet
+pygments: true
+permalink: :title/
+url: http://thewebdev.de
+description: "software, landscapes, guitar & whisky"
+author: Dominik Liebler
+copyright: "2014 by Dominik Liebler"
+rss_path: "/"
+rss_name: "/feed.rss"
+rss_post_limit: 20

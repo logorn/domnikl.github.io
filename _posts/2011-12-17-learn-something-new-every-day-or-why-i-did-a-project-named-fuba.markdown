@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: learn something new every day - or why I did a project named fuba
+author: Dominik Liebler
+author_login: domnikl
+author_email: liebler.dominik@googlemail.com
+date: '2011-12-17 12:16:11 +0100'
+date_gmt: '2011-12-17 11:16:11 +0100'
+---
+<p>A couple of days ago I wrote about the advent calender on the blog of the company I work for: <a href="http://blog.mayflower.de" target="_blank">Mayflower</a>. And I also wrote a blog post about <a href="http://blog.mayflower.de/archives/785-15.12.-Using-custom-annotations-in-PHP.html" target="_blank">using custom annotations in PHP</a> to save a lot of time and code with it. I worked on a lot of projects that used annotations more or less, but this is the story why I wrote the article:</p>
+<p>I recently did a little side project named <strong>fuba</strong> that really heavily relies on annotations for various purposes in the core and uses many shiny new technologies. I did it just to learn a few new things and try them out, perhaps I will put it on github in the next days so you can learn something, too :)</p>
+<h2>The application stack</h2>
+<p>Fuba uses the Doctrine annotation reader and I defined annotations for filtering and validating entities. To add new filters or validators all I had to do was add a new annotation on the property and create the validator/filter class (if that didn't exist yet). Annotations would then be cached in <a href="http://redis.io" target="_blank">Redis</a>, using the <a href="http://rediska.geometria-lab.net/" target="_blank">Rediska</a> PHP client library.</p>
+<p>After filtering all my entities are persisted in a <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> 9.1 database, the persisting is managed by <a href="http://www.doctrine-project.org/" target="_blank">Doctrine2</a> over Zend Framework 1.</p>
+<p>Writing a cache adapter for it to use Redis was very easy, just copy the Memcache adapter, most methods are equal to that in the Rediska library. The next step would be to use the EventManager of Doctrine2 and validate all entities before persisting them. Filtering is already done automatically in a magic __set() method.</p>
+<p>All this magic happens in the REST interface which is then used by <a href="http://documentcloud.github.com/backbone/" target="_blank">backbone.js</a>, a Javascript MVC library that I extended with a custom PaginatedCollection class to handle (I think the name says it all ;-)) paginated collections.</p>
+<p>The base CSS comes from Twitter's <a href="http://twitter.github.com/bootstrap/" target="_blank">bootstrap</a> and on top of that I used <a href="http://learnboost.github.com/stylus/" target="_blank">Stylus</a> for additional styling. Stylus is a great CSS Framework, that allows variables, functions and computing of properties, interpolation, etc. I would never ever do a project without it!</p>
+<h2>what was this all for?</h2>
+<p>So what exactly does fuba? It's a proof of concept that implements a kind of very basic social network where users can register, login and write messages that their friends. It's far, far away from feature-completeness but that wasn't even my intention. I rather wanted to build a core system that can easily be extended without the need to write many lines of code.</p>
+<p>After building the filter &amp; validation system, setting up a new entity was just a matter of minutes. Creating a new file with a class in it, add the properties, add their Doctrine2 mapping, the filters and the validators. Most of them already exist in Zend Framework, if not, just extend the extisting classes and add extra logic. Done!</p>
+<h2>in the future</h2>
+<p>I would be interested to use Symfony2 instead of ZF for it and see how that performs and of course how I can perform using it. But I don't think that fuba will see many new revisions in the future. It was a nice try and I learned something new on it but now it's time to do something different and again learn something ...</p>
