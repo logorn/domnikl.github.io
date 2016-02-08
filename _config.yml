@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 copyright: "2016 by Dominik Liebler"
 author: Dominik Liebler
 permalink: :title/
+highlighter: rouge
 url: "https://domnikl.github.io" # the base hostname & protocol for your site
 twitter_username: domnikl
 github_username:  domnikl
