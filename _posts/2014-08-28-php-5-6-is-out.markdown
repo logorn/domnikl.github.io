@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: PHP 5.6 is out - what's new?
-author: Dominik Liebler
-date: '2014-08-28 15:30:00 +0100'
 ---
 Today there was a new release of PHP - version 5.6.0 is out! And it contains some very interesting changes I think!
 

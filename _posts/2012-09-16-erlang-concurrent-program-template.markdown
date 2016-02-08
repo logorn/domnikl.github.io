@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Erlang Concurrent Program Template
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-09-16 07:36:11 +0200'
-date_gmt: '2012-09-16 06:36:11 +0200'
 ---
 To start development on a new Erlang module that supports concurrent processing, I wrote myself a template, that is mostly inspired by the template from Joe Armstrong and his book [Programming Erlang - Software for a Concurrent World](http://pragprog.com/book/jaerlang/programming-erlang).
 

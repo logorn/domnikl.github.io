@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: learning algorithms
-author: Dominik Liebler
-date: '2014-09-13 14:19:00 +0100'
 ---
 Today I am going to write just a very short article. In the recent days am doing a lot of noob work, learning Go and Clojure for fun. But today I will show you a page where can learn about a topic I am very interested in: algorithms.
 

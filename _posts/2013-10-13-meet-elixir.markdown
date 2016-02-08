@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Meet Elixir
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2013-10-13 13:47:07 +0200'
-date_gmt: '2013-10-13 12:47:07 +0200'
 ---
 <h1>Meet Elixir</h1>
 <blockquote><p>Elixir is a functional, meta-programming aware language built on top of the Erlang VM. It is a dynamic language with flexible syntax and macro support that leverages Erlang's abilities to build concurrent, distributed and fault-tolerant applications with hot code upgrades.</p></blockquote>

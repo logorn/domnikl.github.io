@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Erlang stack
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-10-01 17:28:17 +0200'
-date_gmt: '2012-10-01 16:28:17 +0200'
 ---
 <p>I am learning Erlang for a little to a year now, not constantly but every now and then and a little more in the last 2-3 months. As I dug deeper and deeper in the language I started looking for the typical stack for Erlang programs. That means tools to develop and run a Erlang/OTP application and here is a (not yet complete) list of what I have found.</p>
 <p>Erlang is a language that has been and is used for <a href="http://programmers.stackexchange.com/questions/112417/real-world-applications-of-erlang" target="_blank">various types of applications</a>. Unfortunately many developers don't feel comfortable with the functional programming paradigm that Erlang is built upon. To help you get started on your way as a to-be Erlang developer here are some tools that may help you:</p>

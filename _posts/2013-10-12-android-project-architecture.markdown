@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Android project architecture
-author: Dominik Liebler
-author_login: domnikl
-date: '2013-10-12 10:30:49 +0200'
-date_gmt: '2013-10-12 09:30:49 +0200'
 ---
 A very important topic when writing Android applications is how to structure your code so that it remains maintainable and extendable while the project grows.
 

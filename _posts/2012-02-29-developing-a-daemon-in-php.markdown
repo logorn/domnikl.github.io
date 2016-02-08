@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Developing a daemon in PHP
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2012-02-29 19:02:53 +0100'
-date_gmt: '2012-02-29 18:02:53 +0100'
 ---
 <p>I've already talked about Unix programming <a title="Unix programming using Ruby" href="http://thewebdev.de/unix-programming-using-ruby/">here</a>, but today I want to go a step   ahead an really implement a daemon, this time I am going to use PHP. You may have already heard of daemons here or there, but I'll give you some facts about them anyway:</p>
 <ol>

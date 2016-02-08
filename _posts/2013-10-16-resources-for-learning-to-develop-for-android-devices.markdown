@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: resources for learning to develop for Android devices
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2013-10-16 18:00:04 +0200'
-date_gmt: '2013-10-16 17:00:04 +0200'
 ---
 <p>The web is full of tutorials and guides to learn programming Android devices. But there is also a lot of noise out there that you want to avoid. This is a list of high-quality blogs about developing for Android that I follow.</p>
 <h2>Cyril Mottier</h2>

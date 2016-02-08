@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: type-safe collections in PHP
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-02-03 19:11:30 +0100'
-date_gmt: '2012-02-03 18:11:30 +0100'
 ---
 Yes, you've read the headline correctly, although PHP is a weakly-typed language, sometimes you just need to make sure, that an argument to a method is of a certain type. As of PHP 5.3 you can use type-hinting to ensure this situation.
 

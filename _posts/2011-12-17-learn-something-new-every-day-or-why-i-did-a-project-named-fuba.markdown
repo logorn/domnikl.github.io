@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: learn something new every day - or why I did a project named fuba
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2011-12-17 12:16:11 +0100'
-date_gmt: '2011-12-17 11:16:11 +0100'
 ---
 <p>A couple of days ago I wrote about the advent calender on the blog of the company I work for: <a href="http://blog.mayflower.de" target="_blank">Mayflower</a>. And I also wrote a blog post about <a href="http://blog.mayflower.de/archives/785-15.12.-Using-custom-annotations-in-PHP.html" target="_blank">using custom annotations in PHP</a> to save a lot of time and code with it. I worked on a lot of projects that used annotations more or less, but this is the story why I wrote the article:</p>
 <p>I recently did a little side project named <strong>fuba</strong> that really heavily relies on annotations for various purposes in the core and uses many shiny new technologies. I did it just to learn a few new things and try them out, perhaps I will put it on github in the next days so you can learn something, too :)</p>

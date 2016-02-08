@@ -1,11 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Having fun with Elixir's macros
-author: Dominik Liebler
-date: '2014-03-28 13:20:53 +0100'
-date_gmt: '2014-03-28 13:20:53 +0100'
 ---
 I already wrote about Elixir [last October](/meet-elixir/). For those who haven't followed my blog since then, here's the short story for you: Elixir is a functional programming language that is built upon the Erlang VM and also supports metaprogramming.
 

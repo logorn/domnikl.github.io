@@ -1,21 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: building tiny web apps with Sinatra part 2
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-excerpt: ! "It's been a while since <a title=\"building tiny web apps with Sinatra
-  Part 1\" href=\"http://thewebdev.de/building-tiny-web-apps-with-sinatra-part1/\">Part
-  1</a> but I'm here again to implement the outstanding two features. That is: showing
-  an article and creating new articles.\r\n<h2>Feature 2: show a single article per
-  page</h2>\r\nWe'll start with showing a single article per page, the routing for
-  this will be /posts/:id, so that the first article will be /posts/1 etc. I started
-  with implementing a method in the Post class that will load one single file, given
-  the id of the post:\r\n\r\n[gist id=1808449 file=sinatra_part2_post.rb]\r\n\r\n"
-date: '2012-02-12 15:57:12 +0100'
-date_gmt: '2012-02-12 14:57:12 +0100'
 ---
 <p>It's been a while since <a title="building tiny web apps with Sinatra Part 1" href="http://thewebdev.de/building-tiny-web-apps-with-sinatra-part1/">Part 1</a> but I'm here again to implement the outstanding two features. That is: showing an article and creating new articles.</p>
 <h2>Feature 2: show a single article per page</h2>

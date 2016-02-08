@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Deep C - advanced C knowledge
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2011-10-19 15:58:52 +0200'
-date_gmt: '2011-10-19 14:58:52 +0200'
 ---
 <blockquote><em>Lots of programmers using C think they know C. Most of them are wrong.</em></p>
 <p>- @<a href="https://twitter.com/#!/kevlinhenney/status/123323974842200064" target="_blank">KevlinHenny</a></p></blockquote>

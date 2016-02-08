@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: some Ruby goodies
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2012-01-09 23:13:25 +0100'
-date_gmt: '2012-01-09 22:13:25 +0100'
 ---
 <p>Hey guys, I've been tooling around with Ruby the last days/weeks and I have learned some little lessons in general Ruby programming. These are some small tipps that I find very useful, especially for Ruby newcomers.</p>
 <h2>enhance the load path</h2>

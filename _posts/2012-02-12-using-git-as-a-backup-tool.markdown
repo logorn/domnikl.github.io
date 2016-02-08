@@ -1,23 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: using git as a backup tool
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-excerpt: ! "I recently had the problem, that I did not do any kind of backup of this
-  site. The blog has grown since I began blogging again about a year ago and especially
-  in the past few weeks since I relased <a href=\"https://rubygems.org/gems/messie\"
-  target=\"_blank\">messie</a> and <a href=\"https://rubygems.org/gems/highscore\"
-  target=\"_blank\">highscore</a> under the MIT license.\r\n\r\nI don't wanted to
-  loose all posts and backup at least the database (it's a MySQL system). In the past
-  I dumped the complete schema and downloaded that via SFTP onto my local machine,
-  but it's always the same: You set it up and all is ok and it runs for a few months.
-  Then something unexpected happens and the dump is not downloaded but you don't have
-  time nor want to do that whole thing again and see what failed and so on. That goes
-  on and on and on.\r\n\r\n"
-date: '2012-02-12 19:30:47 +0100'
-date_gmt: '2012-02-12 18:30:47 +0100'
 ---
 <p>I recently had the problem, that I did not do any kind of backup of this site. The blog has grown since I began blogging again about a year ago and especially in the past few weeks since I relased <a href="https://rubygems.org/gems/messie" target="_blank">messie</a> and <a href="https://rubygems.org/gems/highscore" target="_blank">highscore</a> under the MIT license.</p>
 <p>I don't wanted to loose all posts and backup at least the database (it's a MySQL system). In the past I dumped the complete schema and downloaded that via SFTP onto my local machine, but it's always the same: You set it up and all is ok and it runs for a few months. Then something unexpected happens and the dump is not downloaded but you don't have time nor want to do that whole thing again and see what failed and so on. That goes on and on and on.</p>

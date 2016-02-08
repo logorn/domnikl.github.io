@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: big O notation for the rest of us
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2011-11-02 22:19:06 +0100'
-date_gmt: '2011-11-02 21:19:06 +0100'
 ---
 Have you ever stumbled upon something like *O(N log N)* and wondered what that means or what it is good for? I have and of course I wanted to know what that means. From the context I thought it must have something to do with algorithms and their execution times. So what did I do? Of course I went to Wikipedia and yeah I found a page about [Big O notation](http://en.wikipedia.org/wiki/Big_O_notation) there. But as I am not that into mathematics I didn't understand very much. I guess so did you, else you weren't here but already on Wikipedia ;-)
 

@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Why don't you put your dotfiles on Github?
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2012-09-19 18:10:52 +0200'
-date_gmt: '2012-09-19 17:10:52 +0200'
 ---
 <p>What exactly are dotfiles some of you might ask? It's those little settings file that swirl around in your $HOME directory (~) on your Linux or Mac OS X machine and sometime you have to change them to adjust your configuration with them.</p>
 <h2>What are dotfiles?</h2>

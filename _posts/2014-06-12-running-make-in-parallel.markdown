@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Running make in parallel
-author: Dominik Liebler
-date: '2014-06-12 08:00:00 +0100'
 ---
 I bet you all heard about make before, the wonderfully simple but versatile build tool that origins from the age of dinosaurs and that has been an inspiration for almost any other build tool out there like ant, grunt, you name it.
 

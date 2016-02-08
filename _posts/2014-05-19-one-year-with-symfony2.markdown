@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: One year with Symfony2 (book)
-author: Dominik Liebler
-date: '2014-05-19 19:00:00 +0100'
 ---
 Today I am going to write a little about a book I read recently. To be honest, it has been some time since I did but I prefer to wait some time before judging too early about books in general.
 

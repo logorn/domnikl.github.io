@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: highscore - a lightweight ruby library that finds and ranks keywords in a string
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-02-05 13:39:17 +0100'
-date_gmt: '2012-02-05 12:39:17 +0100'
 ---
 I wrote about [messie](/messie-a-web-crawler-written-in-ruby/) here the other day and what I use it for is that I want to automatically download pages and find keywords in their content. Say for instance, this article should have the keywords "keywords, highscore, ruby" and so on. Just a list of tags that describe this page's content.
 

@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Unix programming using Ruby
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-02-21 18:55:18 +0100'
-date_gmt: '2012-02-21 17:55:18 +0100'
 ---
 <p>The other day I blogged about an alternative for bash, <a title="zsh – a bash alternative that’s easily customizable with oh-my-zsh" href="http://thewebdev.de/zsh-a-bash-alternative-thats-easily-customizable-with-oh-my-zsh/">zsh</a>. But what if you want to write your own shell that behaves exactly like you want it to?</p>
 <p><a href="http://jstorimer.com/" target="_blank">Jesse Storimer</a> (the author of the truly great <a href="http://workingwithunixprocesses.com" target="_blank">Working with Unix Processes</a> and already working on his Unix beard ;-)) has just started a new <a href="http://jstorimer.com/2012/02/16/a-unix-shell-in-ruby.html" target="_blank">series of blog posts</a> in which he'll explain how to write the quintessential of a Unix program - a basic shell in Ruby.</p>

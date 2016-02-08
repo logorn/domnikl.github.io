@@ -1,12 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: building tiny web apps with Sinatra Part 1
-author: Dominik Liebler
-author_email: liebler.dominik@googlemail.com
-date: '2012-01-10 22:32:59 +0100'
-date_gmt: '2012-01-10 21:32:59 +0100'
 ---
 <p>Sinatra is an awesome, lightweight and easy to learn little web framework written in Ruby. You may want to use it for projects when Rails is just too much, e.g. for small webservices or small web apps. It will run with many great Ruby webservers, such as Webrick, Mongrel (recommended), thin or Puma (which I prefer).</p>
 <p>To get started, you have to install the gem.</p>

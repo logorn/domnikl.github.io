@@ -1,19 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: zsh - a bash alternative that's easily customizable with oh-my-zsh
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-excerpt: ! "I think I now what you are thinking right now: \"Why do I even NEED an
-  alternative to bash?\". And I can tell you I thought the same, too. Bash is perfect,
-  there's auto completion, a command history and all those neat things that help you
-  being productive when using the shell.\r\n\r\nAnd then one day in mid-2011 I discovered
-  the Z shell and once I read about all the nice features it has, I started being
-  even more productive and I fell in love with this tool.\r\n\r\n"
-date: '2012-02-18 17:14:55 +0100'
-date_gmt: '2012-02-18 16:14:55 +0100'
 ---
 <p>I think I now what you are thinking right now: "Why do I even NEED an alternative to bash?". And I can tell you I thought the same, too. Bash is perfect, there's auto completion, a command history and all those neat things that help you being productive when using the shell.</p>
 <p>And then one day in mid-2011 I discovered the Z shell and once I read about all the nice features it has, I started being even more productive and I fell in love with this tool.</p>

@@ -1,13 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: learning some Erlang
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-date: '2011-10-06 18:59:19 +0200'
-date_gmt: '2011-10-06 17:59:19 +0200'
 ---
 <p>You now might think: <em>What the hell is Erlang? </em>And a few months back I didn't even knew what exactly it was. I only knew it is a programming language, and that somehow Ericsson was involved in developing it.</p>
 <p><img class="alignright" title="Erlang Logo" src="http://upload.wikimedia.org/wikipedia/commons/4/42/Erlang_logo.png" alt="" width="340" height="289" /></p>

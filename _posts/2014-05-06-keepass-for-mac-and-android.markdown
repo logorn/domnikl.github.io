@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Syncing Keepass Databases between Mac, Chrome and Android
-author: Dominik Liebler
-date: '2014-05-06 20:20:53 +0100'
 ---
 
 With the recent background of the [Heartbleed](en.wikipedia.org/wiki/Heartbleed) bug in mind and everything around it, there's a good chance you already changed all your passwords (if not, do so NOW!). I did and I also wanted a secure way to store the passwords and to also have them available on my Android phone if I need them.

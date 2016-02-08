@@ -1,10 +1,6 @@
 ---
 layout: post
-status: publish
-published: false
 title: Why and how to use ansible
-author: Dominik Liebler
-date: '2014-05-26 19:37:00 +0100'
 ---
 
 - Puppet vs. ansible

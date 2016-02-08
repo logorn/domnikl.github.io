@@ -1,17 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: why auto_increments and sequences are anti patterns
-author: Dominik Liebler
-author_login: domnikl
-author_email: liebler.dominik@googlemail.com
-excerpt: One of the first things every Junior Developer learns regarding relational
-  database systems is that storing integers is fast, it doesn't take much space and
-   in general, you should favor an integer over a character field if you've got the
-  choice.
-date: '2012-02-07 19:20:30 +0100'
-date_gmt: '2012-02-07 18:20:30 +0100'
 ---
 <p>One of the first things every Junior Developer learns regarding relational database systems is that storing integers is fast, it doesn't take much space and  in general, you should favor an integer over a character field if you've got the choice.<a id="more"></a><a id="more-328"></a></p>
 <p>There's nothing wrong about that, just remember that a database system can handle values that have a fixed length much faster than values that have a variable length. So naturally it would be a good choice to auto generate an unique sequential integer and store it as the primary key to identify the row in the table.</p>
