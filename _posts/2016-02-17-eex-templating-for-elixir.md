@@ -2,7 +2,7 @@
 layout: post
 title: "EEx - Templating for Elixir"
 ---
-I am digging deeper and deeper into Elixir and recently I have been using Phoenix to play around with some web apps. Soon I was to deal with EEx, which stands for Evaluated Elixir and is a templating engine for Elixir. It works like Jinja for Python or ERB for Ruby.
+I am digging deeper and deeper into Elixir and recently I have been using Phoenix to play around with some web apps. Soon I was to deal with EEx, which stands for Embedded Elixir and is a templating engine for Elixir. It works like Jinja for Python or ERB for Ruby.
 
 EEx has a wonderful feature that is also used in Phoenix where the template is available as a function in the View module. It then gets called with the assigns as a parameter and returns just a binary with the content.
 
