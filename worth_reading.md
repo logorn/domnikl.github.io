@@ -41,6 +41,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [documenting elixir code](http://elixirdose.com/documenting-your-elixir-code/)
 * [Reddit: I'm trying to learn Elixir - any good resources?](http://www.reddit.com/r/elixir/comments/1ss2ao/im_trying_to_learn_elixir_any_good_resources/)
 * [GenEvent behaviour](http://elixir-lang.org/docs/stable/GenEvent.Behaviour.html)
+* [Debugging Techniques in Elixir](http://blog.plataformatec.com.br/2016/04/debugging-techniques-in-elixir-lang/?utm_source=elixir-status&utm_medium=social&utm_campaign=blog-post-promotion)
 
 ## Ruby
 
