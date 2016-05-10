@@ -93,6 +93,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [How to write unmaintable code](https://www.thc.org/root/phun/unmaintain.html)
 * [Why Scrum should basically just die in a fire](http://gilesbowkett.blogspot.com.au/2014/09/why-scrum-should-basically-just-die-in.html)
 * [What to write? - about technical documentation](http://jacobian.org/writing/what-to-write/)
+* [Spotify Engineering Culture](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg)
 
 ## (Dev)Ops
 
