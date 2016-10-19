@@ -56,6 +56,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [use pyenv to install several python versions](https://gist.github.com/Bouke/11261620)
 * [HTTP lib: requests](http://docs.python-requests.org/en/master/)
 * [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+* [Google's Python Class](https://developers.google.com/edu/python/)
 
 ## Android
 
