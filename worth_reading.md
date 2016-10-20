@@ -88,6 +88,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [CQRS FAQ](http://cqrs.nu/Faq)
 * [CQRS in ZF2](https://github.com/RalfEggert/phpmagazin.cqrs)
 
+
 ## Development culture
 
 * [Jetbrains - the unicorn Silicon Valley doesn't like to talk about](http://movingfulcrum.com/jetbrains-the-unicorn-silicon-valley-doesnt-like-to-talk-about/)
@@ -101,6 +102,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [Why Scrum should basically just die in a fire](http://gilesbowkett.blogspot.com.au/2014/09/why-scrum-should-basically-just-die-in.html)
 * [What to write? - about technical documentation](http://jacobian.org/writing/what-to-write/)
 * [Spotify Engineering Culture](https://spotifylabscom.files.wordpress.com/2014/09/spotify-engineering-culture-part2.jpeg)
+* [Google's Guide to technical development](https://www.google.com/about/careers/students/guide-to-technical-development.html)
 
 ## (Dev)Ops
 
