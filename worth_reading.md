@@ -58,6 +58,11 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 * [Google's Python Class](https://developers.google.com/edu/python/)
 
+## Mobile
+
+* [Materialize CSS Framework](http://materializecss.com/)
+* [Material Style Guide: Colors](https://material.google.com/style/color.html)
+
 ## Android
 
 * [Android.hew.io](http://android.hew.io/) great list of libraries to build android apps
