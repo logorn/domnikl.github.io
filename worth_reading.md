@@ -44,6 +44,12 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [Debugging Techniques in Elixir](http://blog.plataformatec.com.br/2016/04/debugging-techniques-in-elixir-lang/?utm_source=elixir-status&utm_medium=social&utm_campaign=blog-post-promotion)
 * [Visualisation of Elixir Supervision Tree Strategies](https://medium.com/@mustafaturan/visualisation-of-elixir-supervision-tree-strategies-4d4cb8123138#.si6jtsr1m)
 
+## Elixir Toolchain
+
+* [excoveralls: Coverage Reports](https://github.com/parroty/excoveralls)
+* [credo: Best Practices & Coding Style](https://github.com/rrrene/credo)
+* [ex_doc](https://github.com/elixir-lang/ex_doc)
+
 ## Ruby
 
 * [Writing a compiler in Ruby buttom up](http://hokstad.com/writing-a-compiler-in-ruby-bottom-up-step-1)
