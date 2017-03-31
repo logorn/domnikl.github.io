@@ -77,6 +77,7 @@ This is a list of links that I find worth reading, sorted roughly by category.
 * [Transmitting Network Data using Volley](http://developer.android.com/training/volley/index.html)
 * [ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)
 * [ZBar Barcode Reader](http://zbar.sourceforge.net/)
+* [Retrofit](http://square.github.io/retrofit/) A type-safe HTTP client for Android and Java
 
 ## Varnish
 
