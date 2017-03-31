@@ -8,7 +8,7 @@ Over those years I realized more and more that doing regularly retrospectives wa
 
 In the past I already used Kanban-boards to organize my personal life. I adopted it and at some point I let it go again because ToDo lists were good enough for me.
 
-In my spare time I also play the guitar. Since August 2016, I play in a band called **"Afraid Of Carpets"**. At first we just played some covers to see if we could play together at all and if everyone fits in well. After the third rehearsal, we wanted to gather some honest feedback about how everything goes and if everyone is happy about the way we rehearse and what we wanted to play and everything else that you have to clarify in a band.
+In my spare time I also play the guitar. Since August 2016, I play in a band called **[Afraid Of Carpets](https://afraidofcarpets.com)**. At first we just played some covers to see if we could play together at all and if everyone fits in well. After the third rehearsal, we wanted to gather some honest feedback about how everything goes and if everyone is happy about the way we rehearse and what we wanted to play and everything else that you have to clarify in a band.
 
 *So now we frequently do retrospectives.*
 
